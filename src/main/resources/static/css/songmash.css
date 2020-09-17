@@ -1,0 +1,426 @@
+body {
+	background-color: black;
+	font-family: "Proxima Nova", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/*
+h1 {
+	color: white;
+	font-family: "Didot";
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+
+}
+
+span{
+	color: "#1ed761";
+}*/
+
+.outer {
+	width: 1500px;
+	/*1500*/
+	border: 0px solid #38761d;
+	background-color: #000;
+	margin: 0 auto;
+	/* top+bottom  left+right */
+}
+
+p {
+	font-style: normal;
+	font-size: 80px;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+	/*  padding-top: 63px;
+      padding-bottom: 230px;
+      margin-top: 0;
+      margin-bottom: 0;*/
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.hr3 {
+	color: #D8D8D8;
+}
+
+.hr4 {
+	color: #1ed761;
+}
+
+
+.desc {
+	/*	position: absolute;
+        width: 1000px;
+        height: 200px;
+        left: 218px;
+        top: 120px;*/
+
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+
+	color: #D8D8D8;
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#settingslabel{
+	font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+
+	color: #D8D8D8;
+
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.form {
+	z-index: 3;
+	color: #1ed761;
+	/*	position: absolute;
+        left: 650px;
+        top: 400px;*/
+
+	position: fixed;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+}
+
+#start{
+	z-index: 3;
+	border: none;
+	background: black;
+	border-radius: 40px;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.undecorated-text{
+	text-decoration: none;
+}
+
+.blackButton{
+	z-index: 3;
+	border: none;
+	background: black;
+	border-radius: 40px;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#submit{
+	border: none;
+	background-color: #1ed761;
+	border-radius: 40px;
+	font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:white;
+	width: 200px;
+	height: 30px;
+}
+
+#create-room-btn{
+	z-index: 3;
+	border: none;
+	background: #1ED761;
+	border-radius: 40px;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#join-room-btn{
+	z-index: 3;
+	border: none;
+	background: #1ED761;
+	border-radius: 40px;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#logout-site-btn{
+	z-index: 3;
+	border: none;
+	background: #1ED761;
+	border-radius: 40px;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.fakeBtn{
+	z-index: 3;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	background: #1ED761;
+	border-radius: 40px;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	width: 200px;
+	position: fixed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#settings{
+	z-index: 3;
+	text-decoration: underline;
+	color: #1ED761;
+	font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 10px;
+	position: fixed;
+	padding: 5px;
+	top: 20%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+}
+
+#label1{
+	z-index: 3;
+	border: none;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #1ED761;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+
+#label2{
+	z-index: 3;
+	border: none;
+	font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #1ED761;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+
+#input1{
+	z-index: 3;
+	border: none;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#obscurity{
+
+	font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#save{
+	z-index: 3;
+	border: none;
+	background: #1ED761;
+	border-radius: 40px;
+	font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 560px;
+	position: fixed;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#memberList {
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #1ED761;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.modal {
+	/*display: none; !* Hidden by default *!*/
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+	border-radius: 30px;
+	background-color: #1ed761;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 60%; /* Could be more or less, depending on screen size */
+	height: 50%;
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* The Close Button */
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#label3{
+	font-size: 30px;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+#label4{
+	font-size: 15px;
+	font-family: Proxima Nova, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align: center;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+#user-list{
+	padding: 0 0 0 40px;
+	position: fixed;
+	top: 35%;
+	left: 47%;
+	transform: translate(-50%, -50%);
+	font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+}
+
+#user-list{
+	padding: 0 0 0 40px;
+	position: fixed;
+	top: 35%;
+	left: 47%;
+	transform: translate(-50%, -50%);
+	font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+}
+
+#auth{
+	font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #1ed761;
+	font-size: 20px;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#home{
+	z-index: 3;
+	border: none;
+	background: #1ED761;
+	border-radius: 40px;
+	font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: white;
+	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 560px;
+	position: fixed;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

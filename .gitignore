@@ -1,0 +1,7 @@
+/target
+.idea/
+.settings
+.classpath
+data/desktop/ini
+desktop.inni
+ngrok

@@ -1,0 +1,122 @@
+.outer {
+  width: 1500px;
+  /*1500*/
+  border: 0px solid #38761d;
+  background-color: #000;
+  margin: 0 auto;
+  /* top+bottom  left+right */
+}
+
+p {
+  font-style: normal;
+  font-size: 80px;
+  font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center;
+  padding-top: 63px;
+  /*102 */
+  padding-bottom: 230px;
+  /*500 */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+span.hr3 {
+  color: #D8D8D8;
+}
+
+span.hr4 {
+  color: #1ed761;
+}
+
+.desc2 {
+/*  position: absolute;
+  width: 1000px;
+  height: 200px;
+  left: 218px;
+  top: 120px;*/
+
+  font-family:Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #D8D8D8;
+
+  position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btnleft{
+
+    position: fixed;
+    top: 85%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+      border: none;
+  background: #1ED761;
+  border-radius: 40px;
+  font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: white;
+  width: 200px;
+  height: 30px;
+}
+
+#btnright{
+  
+    position: fixed;
+    top: 85%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background: #1ED761;
+    border-radius: 40px;
+    font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    width: 200px;
+    height: 30px;
+}
+
+#done{
+
+    position: fixed;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    background: #1ED761;
+    border-radius: 40px;
+    font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: white;
+    width: 300px;
+    height: 40px;
+}
+
+.frame1{
+    position: fixed;
+    top: 52%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+.frame2{
+    position: fixed;
+    top: 52%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+
+}
+
+.page {
+    position: fixed;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Proxima Nova,"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #1ed761;
+    font-size: 15px;
+}
